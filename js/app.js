@@ -26,3 +26,12 @@ for (let i = 1; i <= numGuesses; i++) {
 
 // Why doesn't guess show up? We got it right????
 // document.write(guess);
+
+let numPets = prompt("How many pets do I have?");
+document.write("<ul>");
+
+for (let i = 1; i <= numPets; i++) {
+  document.write("<li>Pet number " + i + "</li>");
+}
+
+document.write("</ul>");
